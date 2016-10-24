@@ -26,6 +26,7 @@ X = array[:,0:8]
 Y = array[:,8]
 
 print "type(X)=", type(X), "X.shape=", X.shape #<type 'numpy.ndarray'> X.shape= (768L, 8L)
+print "len(X)=", len(X) #NB: len(X) = number of rows reported by X.shape.
 print "type(Y)=", type(Y), "Y.shape=", Y.shape #<type 'numpy.ndarray'> Y.shape= (768L,)
 
 #set parameters for model construction
@@ -46,6 +47,8 @@ num_trees = 100
 start_time = time.time()
 model = BaggingClassifier(base_estimator=cart, n_estimators=num_trees, random_state=seed)
 print("--- time to create BaggingClassifier %s seconds ---" % (time.time() - start_time))
+#http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingClassifier.html
+
 
 start_time = time.time()
 results = cross_validation.cross_val_score(model, X, Y, cv=kfold)
