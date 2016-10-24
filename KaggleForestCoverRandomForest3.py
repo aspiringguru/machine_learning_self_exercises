@@ -121,3 +121,12 @@ with open(loc_submission, "w") as outfile:
     for e, val in enumerate(list(clf.predict(X_test))):
         outfile.write("%s,%s\n" % (test_ids[e], val))
 print("--- time to clf.predict & write to file %s seconds ---" % (time.time() - start_time))
+
+
+"""
+to do : write script to find the data rows used in 'test.csv', recover the original data including
+the 'Cover_Type' column and score results without having to upload to kaggle.
+
+Use the resulting data/methods to test algorythms ad infinitume without kaggle submission limits.
+
+"""
