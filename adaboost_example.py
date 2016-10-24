@@ -172,7 +172,7 @@ print "test_np column names = (test.columns) = ", list(test.columns)
 print "type(score)=", type(score)
 print 'Accuracy:', "%.2f" %(score*100)+'%'
 
-    #Accuracy: 83.63%
+#Accuracy: 83.63%
 
 print "test_np[:,-1] = last column name: ", list(test.columns)[-1]
 
