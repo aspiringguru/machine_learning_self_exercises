@@ -4,8 +4,8 @@ https://abcsofds.wordpress.com/2015/10/05/a-is-for-adaboost-classifiers/
 import time
 import pandas as pd
  
-filename_train = 'adult.data'
-filename_test = 'adult.test'
+filename_train = './adult_data/adult.data'
+filename_test = './adult_data/adult.test'
 columns = ['age', 'workclass', 'fnlwgt', 'education', 
            'education-num', 'marital-status', 'occupation', 'relationship',
            'race', 'sex', 'capital-gain', 'capital-loss', 
