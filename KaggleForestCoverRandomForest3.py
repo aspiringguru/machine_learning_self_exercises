@@ -1,11 +1,25 @@
 """
+This code was published on github 25/10/2016.
+https://github.com/aspiringguru/machine_learning_self_exercises
+
 https://www.kaggle.com/triskelion/forest-cover-type-prediction/first-try-with-random-forests/code
 https://archive.ics.uci.edu/ml/datasets/Covertype
 
-Todo : predict the forest cover type (the predominant kind of tree cover) from strictly cartographic variables
+Predict the forest cover type (the predominant kind of tree cover) from strictly cartographic variables
 (as opposed to remotely sensed data).
 
+Note: this code demonstrates a 'cheat' for the kaggle comp.
+I wrote this after wondering how other submissions were achieving a perfect score, when the kaggle problem
+definition nominates a test dataset representing 2% of the total data.
+I scored 75% in my previous attempt - which used sample code from the kaggle demo.
+(see KaggleForestCoverRandomForest1.py in this github repo)
 
+This Kaggle comp is closed, and no kaggle points, so it's really just an educational/demo exercise.
+
+Pitchforks on sale at pitchforkemporium.
+https://www.reddit.com/r/pitchforkemporium/
+
+TLDR: overfitting is bad.
 
 """
 
