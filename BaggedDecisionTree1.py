@@ -38,6 +38,8 @@ seed = 7
 start_time = time.time()
 kfold = cross_validation.KFold(n=num_instances, n_folds=num_folds, random_state=seed)
 print("--- time to cross_validation.KFold %s seconds ---" % (time.time() - start_time))
+#http://scikit-learn.org/0.17/modules/generated/sklearn.cross_validation.KFold.html
+#Provides train/test indices to split data in train test sets. Split dataset into k consecutive folds (without shuffling by default).
 
 start_time = time.time()
 cart = DecisionTreeClassifier()
