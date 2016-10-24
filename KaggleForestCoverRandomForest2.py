@@ -9,8 +9,11 @@ Todo : predict the forest cover type (the predominant kind of tree cover) from s
 
 """
 
+import time
 import pandas as pd
 from sklearn.cross_validation import train_test_split
+from sklearn import ensemble
+from sklearn.metrics import accuracy_score
 import numpy as np
 
 raw_data = "./covtype/covtype.data"
@@ -58,6 +61,29 @@ del df
 del np_features
 del np_keys
 
+start_time = time.time()
 clf = ensemble.RandomForestClassifier(n_estimators=200,n_jobs=-1,random_state=0)
-clf.fit(features_train, keys_train)
+print("--- time to execute  ensemble.RandomForestClassifier %s seconds ---" % (time.time() - start_time))
+#http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+#n_jobs : integer, optional (default=1)
+# The number of jobs to run in parallel for both fit and predict.
+# If -1, then the number of jobs is set to the number of cores.
+# my I7-4790 has 4 cores.
 
+print "fitting clf.fit"
+start_time = time.time()
+clf.fit(features_train, keys_train)
+print("--- time to execute  clf.fit %s seconds ---" % (time.time() - start_time))
+
+print "predicting"
+start_time = time.time()
+keys_test_predicted = clf.predict(features_test)
+print("--- time to predict %s seconds ---" % (time.time() - start_time))
+
+print "calculating accuracy_score"
+start_time = time.time()
+score = accuracy_score(keys_test, keys_test_predicted)
+print("--- time to calcualte accuracy_score %s seconds ---" % (time.time() - start_time))
+print "type(score)=", type(score)
+
+print "accuracy_score(keys_test, keys_test_predicted) = ", score

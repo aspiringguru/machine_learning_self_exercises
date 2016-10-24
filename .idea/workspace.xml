@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835e7f93-8471-4ca9-84c7-66b27b89ec3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KaggleForestCoverRandomForest1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KaggleForestCoverRandomForest2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomForest1.py" afterPath="$PROJECT_DIR$/RandomForest1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KaggleForestCoverRandomForest1.py" afterPath="$PROJECT_DIR$/KaggleForestCoverRandomForest1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KaggleForestCoverRandomForest2.py" afterPath="$PROJECT_DIR$/KaggleForestCoverRandomForest2.py" />
     </list>
     <ignored path="machine_learning_self_exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="BaggedDecisionTree1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BaggedDecisionTree1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="64" column="79" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="79" />
+            <state relative-caret-position="68">
+              <caret line="56" column="106" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="106" />
               <folding>
                 <element signature="e#43#56#0" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
       <file leaf-file-name="RandomForest1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomForest1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="170">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="e#31#44#0" expanded="true" />
               </folding>
@@ -62,8 +62,8 @@
       <file leaf-file-name="KaggleForestCoverRandomForest1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="34">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="e#158#177#0" expanded="true" />
               </folding>
@@ -71,13 +71,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KaggleForestCoverRandomForest2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KaggleForestCoverRandomForest2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#310#329#0" expanded="true" />
+                <element signature="e#310#321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KaggleForestCoverRandomForest3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#310#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +114,9 @@
         <option value="$PROJECT_DIR$/BaggedDecisionTree1.py" />
         <option value="$PROJECT_DIR$/RandomForest1.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/KaggleForestCoverRandomForest1.py" />
         <option value="$PROJECT_DIR$/KaggleForestCoverRandomForest2.py" />
+        <option value="$PROJECT_DIR$/KaggleForestCoverRandomForest1.py" />
+        <option value="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" />
       </list>
     </option>
   </component>
@@ -180,24 +193,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.KaggleForestCoverRandomForest2">
-    <configuration default="false" name="adaboost_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="machine_learning_self_exercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adaboost_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2015\coding_projects\machine_learning_self_exercises\machine_learning_self_exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.KaggleForestCoverRandomForest3">
     <configuration default="false" name="BaggedDecisionTree1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,6 +246,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machine_learning_self_exercises" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KaggleForestCoverRandomForest2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KaggleForestCoverRandomForest1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machine_learning_self_exercises" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KaggleForestCoverRandomForest1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KaggleForestCoverRandomForest3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machine_learning_self_exercises" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -383,18 +418,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.adaboost_example" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BaggedDecisionTree1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.RandomForest1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.BaggedDecisionTree1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RandomForest1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest3" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RandomForest1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BaggedDecisionTree1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.adaboost_example" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.RandomForest1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.BaggedDecisionTree1" />
       </list>
     </recent_temporary>
   </component>
@@ -469,26 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaggedDecisionTree1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="64" column="79" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="79" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RandomForest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="e#31#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -497,22 +514,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest1.py">
+    <entry file="file://$PROJECT_DIR$/BaggedDecisionTree1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="56" column="106" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="106" />
           <folding>
-            <element signature="e#158#177#0" expanded="true" />
+            <element signature="e#43#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RandomForest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#31#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="e#310#329#0" expanded="true" />
+            <element signature="e#310#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#158#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KaggleForestCoverRandomForest3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#310#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
