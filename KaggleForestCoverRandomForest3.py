@@ -2,6 +2,7 @@
 This code was published on github 25/10/2016.
 https://github.com/aspiringguru/machine_learning_self_exercises
 
+
 https://www.kaggle.com/triskelion/forest-cover-type-prediction/first-try-with-random-forests/code
 https://archive.ics.uci.edu/ml/datasets/Covertype
 
@@ -39,6 +40,8 @@ df_test = pd.read_csv(loc_test)
 df_train = pd.read_csv(loc_train)
 
 print "type(df_test)=", type(df_test), "df_test.shape=", df_test.shape
+print "type(df_train)=", type(df_train), "df_train.shape=", df_train.shape
+
 feature_cols = [col for col in df_train.columns if col not in ['Cover_Type', 'Id']]
 X_test = df_test[feature_cols]
 test_ids = df_test['Id']
