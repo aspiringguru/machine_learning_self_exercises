@@ -3,3 +3,7 @@
 /covtype/*
 
 /adult_data/*
+
+/kaggle_leaf-classification/data/*
+
+/kaggle_leaf-classification/.idea/*
