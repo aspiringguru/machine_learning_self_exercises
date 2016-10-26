@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835e7f93-8471-4ca9-84c7-66b27b89ec3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" afterPath="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProbabilityCalibrationClassifiers1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iris_demo1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kaggle_leaf-classification/.idea/workspace.xml" afterPath="$PROJECT_DIR$/kaggle_leaf-classification/.idea/workspace.xml" />
     </list>
     <ignored path="machine_learning_self_exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +25,32 @@
     <favorites_list name="machine_learning_self_exercises" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="iris_demo1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iris_demo1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#86#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProbabilityCalibrationClassifiers1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProbabilityCalibrationClassifiers1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-261">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +72,8 @@
         <option value="$PROJECT_DIR$/adaboost_example.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" />
+        <option value="$PROJECT_DIR$/iris_demo1.py" />
+        <option value="$PROJECT_DIR$/ProbabilityCalibrationClassifiers1.py" />
       </list>
     </option>
   </component>
@@ -76,8 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -98,6 +127,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,41 +141,7 @@
       <recent name="D:\2015\coding_projects\machine_learning_self_exercises\machine_learning_self_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.KaggleForestCoverRandomForest3">
-    <configuration default="false" name="BaggedDecisionTree1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="machine_learning_self_exercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaggedDecisionTree1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RandomForest1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="machine_learning_self_exercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandomForest1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ProbabilityCalibrationClassifiers1">
     <configuration default="false" name="KaggleForestCoverRandomForest2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,6 +189,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machine_learning_self_exercises" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KaggleForestCoverRandomForest3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="iris_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machine_learning_self_exercises" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iris_demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProbabilityCalibrationClassifiers1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machine_learning_self_exercises" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProbabilityCalibrationClassifiers1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -331,19 +362,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.BaggedDecisionTree1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.RandomForest1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.iris_demo1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ProbabilityCalibrationClassifiers1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.RandomForest1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BaggedDecisionTree1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ProbabilityCalibrationClassifiers1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.iris_demo1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.KaggleForestCoverRandomForest2" />
       </list>
     </recent_temporary>
   </component>
@@ -365,14 +396,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45144078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45144078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -406,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#92#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#43#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#92#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,9 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="84" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#158#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,9 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#31#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-262">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#310#321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,8 +487,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="43" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris_demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#1009#1020#0" expanded="true" />
+            <element signature="e#86#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProbabilityCalibrationClassifiers1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
